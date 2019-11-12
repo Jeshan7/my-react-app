@@ -1,0 +1,19 @@
+.Person {
+    width: 60%;
+    font-family: sans-serif;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #eee;
+    padding: 16px;
+    text-align: center;
+}
+
+#in {
+    font-family: sans-serif;
+    padding: 6px;
+    box-shadow: 0 2px 3px #eee;
+}
+
+@media (min-width: 500px): {
+  width: 450px;
+}
